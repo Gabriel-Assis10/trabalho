@@ -1,0 +1,62 @@
+/* Estilo geral */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4fff4;
+    color: #2d4d2d;
+}
+
+/* Menu */
+.table {
+    width: 100%;
+    background-color: #2e8b57;
+    border-collapse: collapse;
+}
+
+.table td {
+    padding: 15px;
+}
+
+.table a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.table a:hover {
+    color: #c8ffd7;
+}
+
+/* Títulos */
+h1 {
+    text-align: center;
+    color: #2e8b57;
+    margin-top: 30px;
+}
+
+/* Parágrafos */
+p,
+body {
+    line-height: 1.6;
+}
+
+/* Imagens */
+.tableimg {
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+    border: 3px solid #2e8b57;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin: 15px;
+    transition: transform 0.3s;
+}
+
+.tableimg:hover {
+    transform: scale(1.05);
+}
+
+/* Tabelas de imagens */
+table:not(.table) {
+    margin: 30px auto;
+}
